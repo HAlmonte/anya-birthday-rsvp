@@ -14,7 +14,7 @@ function App() {
 
         e.preventDefault();
 
-        fetch('http://localhost:4000/guest-rsvp', {
+        fetch('https://anya-birthday-rsvp.onrender.com/guest-rsvp', {
             method: 'POST',
             headers: {
                 'Content-Type': "application/json"
