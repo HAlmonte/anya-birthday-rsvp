@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Mogra&family=Style+Script&display=swap');
+
+body {
+    background-image: url('./images/cloud-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    min-height: 100vh;
+}
+
+.title {
+  font-family: "Style Script", cursive;
+  font-size: 10vw;
+  font-style: normal;
+  color: #D2487A;
+}
+
+.subtitle {
+  font-family: "Style Script", cursive;
+  font-size: 3vw;
+  font-style: normal;
+  color: #D2487A;
+}
+
+.details-text, .details-title {
+    color: #D2487A;
+    font-family: "Mogra";
+}
+
+.input-text {
+    color: #D2487A;
+    font-family: "Mogra";
+    font-size: 1.2vw;
+}
+
+.rsvp-form {
+    background-color: rgba(255, 255, 255, 0.641);
+    background-image: url(./images/castle.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0 20px rgba(255, 0, 89, 0.238);
+    margin: auto;
+    height: 50vh;
+}
+
+.btn-fairy {
+    background-color: #ebb6c9;
+    color: #D2487A;
+    border: none;
+    font-family: "Mogra";
+}
+
+.btn-fairy:hover {
+    background-color: #D2487A;
+    color: #ebb6c9;
+    border: none;
+    font-family: "Mogra";
+}
+
+.left-form {
+    background-image: url(./images/pink-dress.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.right-form {
+    background-image: url(./images/purple-dress.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .title {
+    padding-top: 13vh;
+    font-size: 12vw;
+  }
+
+  .subtitle {
+    font-family: "Style Script", cursive;
+    font-size: 4vw;
+    font-style: normal;
+    color: #D2487A;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .title {
+    padding-top: 20vh;
+    font-size: 12vw;
+  }
+
+  .subtitle {
+    font-family: "Style Script", cursive;
+    font-size: 4vw;
+    font-style: normal;
+    color: #D2487A;
+  }
+
+  .details-title {
+    font-size: 4vw;
+    margin-bottom: 4vh;
+  }
+
+  .input-text {
+    font-size: 3vw;
+    margin-bottom: 2vh;
+  }
+}
+

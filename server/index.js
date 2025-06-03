@@ -10,7 +10,7 @@ mongoose.connect(process.env.MONGODB_STRING);
 mongoose.connection.once('open', () => console.log('Now connected to MongoDB Atlas'));
 
 const corsOptions = {
-	origin: ['http://localhost:8000'], 
+	origin: ['http://localhost:3000'], 
 	optionsSuccessStatus: 200
 }
 
